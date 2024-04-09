@@ -1,0 +1,108 @@
+.hero {
+    width: 1440px;
+    max-width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: -1000;
+}
+.hero__video {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.hero__overlay {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background: radial-gradient(transparent -50%, #120023 80%);
+    z-index: 100;
+    top: inherit;
+
+}
+
+.info {
+    width: 42%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 16px;
+    padding-bottom: 12px;
+    margin-top: 200px;
+}
+.info__photo {
+    border-radius: 50%;
+    border: .9px solid #832BC1;
+    box-shadow: 0 3px 15px -4px #832BC1;
+}
+.info__title {
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    letter-spacing: -0.7px;
+}
+.info__content {
+    font-size: 16px;
+    line-height: 24px;
+}
+.hero__description {
+    margin-top: 56px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+    max-width: 76%;
+}
+.hero__links {
+    margin: 35px 0 35px;
+}
+.link__title {
+    margin-bottom: 48px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #FF4C00;
+}
+.link__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+@media (max-width: 1335px) {
+    .hero {
+        padding: 105px 0 0;
+    }
+    .info {
+        flex-direction: column;
+        width: 390px;
+        align-items: start;
+        padding: 0 0 12px 32px;
+    }
+    .info__photo {
+        margin-bottom: 16px;
+    }
+    .info__content {
+        letter-spacing: 1%;
+    }
+    .hero__description {
+        font-size: 16px;
+        padding-left: 32px;
+        line-height: 140%;
+        max-width: 85%;
+    }
+    .link__title {
+        font-size: 16px;
+        letter-spacing: 1%;
+        margin-left: 32px;
+    }
+    .link__wrap {
+        justify-content: space-between;
+        padding: 0 35px;
+    }
+}

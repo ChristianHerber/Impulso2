@@ -1,0 +1,20 @@
+.btn {
+    padding: 10px 16px;
+    border: 2px solid #FF4C00;
+    border-radius: 50px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: ease-in-out .2s;
+}
+.btn:hover {
+    background: #FF4C00;
+    transition: ease-in-out .1s;
+}
+
+@media (max-width: 1200px) {
+    .btn {
+        font-size: 12px;
+        padding: 8px 16px;
+        letter-spacing: -3;
+    }
+}

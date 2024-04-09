@@ -1,0 +1,33 @@
+.article{
+    margin-bottom: 24px;
+}
+.article__title {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    margin-bottom: 16px;
+}
+.article__content {
+    font-size: 12px;
+    line-height: 24px;
+    color: #ebf4f76c;
+}
+@media (max-width: 1200px) {
+    .article {
+        padding-bottom: 32px;
+        max-width: 326px;
+    }
+    /* .article:last-child {
+        border-bottom: 1px solid #ebf4f748;
+    } */
+    .article__title {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 420px) {
+    .article {
+        padding-bottom: 32px;
+        max-width: 95%;
+    }
+}
