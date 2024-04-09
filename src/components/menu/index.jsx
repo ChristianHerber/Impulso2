@@ -22,26 +22,27 @@ const Menu = () => {
     }
 
     useEffect(() => {
-        function handleResize() {
-            setWindowWidth(window.innerWidth);
+        function windowLoad() {
+            setWindowWidth(window.innerWidth)
+            setOpen(false)
         }
 
-        window.addEventListener('resize', handleResize);
+        windowLoad()
 
         return () => {
-        window.removeEventListener('resize', handleResize);
+            window.removeEventListener('load', windowLoad)
         };
-    }, []);
+    }, [])
 
     function checkWindowWidth() {
         if (windowWidth <= 1200) {
             if (open) {
-                return <SubMenu isVisible={subMenu ? styles.submenu__show : ''} />;
+                return <SubMenu isVisible={subMenu ? styles.submenu__show : ''} />
             } else {
                 return null;
             }
         }
-        return <SubMenu isVisible={subMenu ? styles.submenu__show : ''} />;
+        return <SubMenu isVisible={subMenu ? styles.submenu__show : ''} />
     }
 
     return (
