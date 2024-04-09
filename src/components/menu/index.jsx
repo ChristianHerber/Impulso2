@@ -2,10 +2,10 @@
 
 import Logo from '../logo'
 import SubMenu from '../submenu'
-import { FaChevronDown, FaChevronUp, FaGlobe, FaBars, FaXmark } from "react-icons/fa6"
+import { FaChevronDown, FaGlobe, FaBars, FaXmark } from "react-icons/fa6"
 import styles from './style.module.css'
 import Button from '../button'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const Menu = () => {
 
