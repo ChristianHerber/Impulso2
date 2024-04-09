@@ -41,7 +41,6 @@ const Menu = () => {
                 return null;
             }
         }
-
         return <SubMenu isVisible={subMenu ? styles.submenu__show : ''} />;
     }
 

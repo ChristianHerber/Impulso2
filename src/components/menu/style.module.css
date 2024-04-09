@@ -30,6 +30,7 @@
 }
 .navbar__language {
     padding: 20px 8px;
+    margin-right: 8px;
 }
 .navbar__icon {
     margin-right: 12px;
