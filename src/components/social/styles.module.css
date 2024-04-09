@@ -1,6 +1,6 @@
 .link__item {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     column-gap: 8px;
     border: 4px solid #7A13DA;
