@@ -11,6 +11,7 @@ const Menu = () => {
 
     const [open, setOpen] = useState(false)
     const [subMenu, setSubMenu] = useState(false)
+    const [windowWidth, setWindowWidth] = useState(0);
 
     function toggleMenu() {
         setOpen(!open)
@@ -20,18 +21,28 @@ const Menu = () => {
         setSubMenu(!subMenu)
     }
 
-    const windowWidth = window.innerWidth
+    useEffect(() => {
+        function handleResize() {
+            setWindowWidth(window.innerWidth);
+        }
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+        window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     function checkWindowWidth() {
-        if(windowWidth <= 1200) {
-            if(open){
-                return <SubMenu isVisible={subMenu ? styles.submenu__show : ''} />
+        if (windowWidth <= 1200) {
+            if (open) {
+                return <SubMenu isVisible={subMenu ? styles.submenu__show : ''} />;
             } else {
-                return null
+                return null;
             }
         }
 
-        return <SubMenu isVisible={subMenu ? styles.submenu__show : ''} />
+        return <SubMenu isVisible={subMenu ? styles.submenu__show : ''} />;
     }
 
     return (
