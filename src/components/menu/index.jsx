@@ -9,7 +9,7 @@ import { useEffect, useState } from 'react'
 
 const Menu = () => {
 
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(true)
     const [subMenu, setSubMenu] = useState(false)
     const [windowWidth, setWindowWidth] = useState(0);
 
