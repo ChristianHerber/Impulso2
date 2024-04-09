@@ -23,7 +23,7 @@ const Hero = () => {
             <Image src={`/assets/${params.name}.svg`} width={120} height={120} alt="" className={styles.info__photo} />
             <div className={styles.info__description}>
                 <h4 className={styles.info__title}>
-                    Olá, sou o {params.fullname}
+                    Olá, sou o Márcio Sena
                 </h4>
                 <p className={styles.info__content}>
                     CTO e Diretor de Comunidades na Impulso Conectando pessoas e tecnologias para grandes transformações. 🚀
