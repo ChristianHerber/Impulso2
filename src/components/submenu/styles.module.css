@@ -5,7 +5,7 @@
     opacity: 0;
     visibility: hidden;
     transition: opacity .3s ease, visibility .3s ease;
-    background: #120023;
+    background: var(--dark-purple);
     border-radius: 20px;
     max-width: 1320px;
 }

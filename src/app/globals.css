@@ -1,3 +1,16 @@
+:root {
+  --orange: #FF4C00;
+  --purple: #865CE2;
+  --dark-purple: #120023;
+  --dark-purple-alpha: #12002373;
+  --light-purple: #7A13DA;
+  --info-photo-purple: #832BC1;
+  --icon-background:#341A5B;
+  --text-color: #ebf4f7;
+
+  --container: 1320px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -11,8 +24,8 @@ body {
 }
 
 body {
-  background: #120023;
-  color: #EBF4F7;
+  background: var(--dark-purple);
+  color: var(--text-color);
 }
 
 a {
