@@ -13,10 +13,10 @@ const Hero = () => {
         <>
         <div className={styles.hero}>
             <div className={styles.hero__overlay}></div>
-                <video autoPlay muted playsInline className={styles.hero__video}>
-                    <source src="/assets/marcio.mp4" type="video/mp4" />
-                    <Image src="/assets/marcio-bg.jpg" className={styles.hero__video} width={1320} height={548} alt="CTO - Márcio Sena" />
-                </video>
+            <video loop autoPlay muted playsInline className={styles.hero__video}>
+                <source src="/assets/marcio.mp4" type="video/mp4" />
+                <Image src="/assets/marcio-bg.jpg" className={styles.hero__video} width={1320} height={548} alt="CTO - Márcio Sena" />
+            </video>
         </div>
 
         <div className={styles.info}>
