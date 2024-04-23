@@ -48,61 +48,61 @@ const Hero = () => {
 
                 <Social
                     href="https://www.linkedin.com/in/omarciovsena/"
-                    icon="/assets/linkedin.png"
+                    icon="/assets/linkedin.svg"
                     name="Linkedin"
                 />
 
                 <Social
                     href="https://twitter.com/omarciovsena"
-                    icon="/assets/x-twitter.png"
+                    icon="/assets/x-twitter.svg"
                     name="X Twitter"
                 />
 
                 <Social
                     href="#"
-                    icon="/assets/telegram.png"
+                    icon="/assets/telegram.svg"
                     name="Telegram"
                 />
 
                 <Social
                     href="https://medium.com/@marciovsena"
-                    icon="/assets/medium.png"
+                    icon="/assets/medium.svg"
                     name="Medium"
                 />
 
                 <Social
                     href="#"
-                    icon="/assets/podcast.png"
+                    icon="/assets/podcast.svg"
                     name="Podcast Hi Tech com Márcio Sena"
                 />
 
                 <Social
                     href="#"
-                    icon="/assets/podcast-karine.png"
+                    icon="/assets/podcast-karine.svg"
                     name="Podcast People Tech com Karine Silveira"
                 />
 
                 <Social
                     href="#"
-                    icon="/assets/impulso-short.png"
+                    icon="/assets/impulso-short.svg"
                     name="Curso Liderança de Alto Impacto"
                 />
 
                 <Social
                     href="#"
-                    icon="/assets/impulso-short.png"
+                    icon="/assets/impulso-short.svg"
                     name="Newsletter Líder de Alto Impacto"
                 />
 
                 <Social
                     href="https://impulso.link/newsletter-confianca"
-                    icon="/assets/impulso-short.png"
+                    icon="/assets/impulso-short.svg"
                     name="Confiança radical"
                 />
 
                 <Social
                     href="https://calendly.com/omarciovsena/30min"
-                    icon="/assets/cafe.png"
+                    icon="/assets/cafe.svg"
                     name="Vamos tomar um café?"
                 />
             </div>
