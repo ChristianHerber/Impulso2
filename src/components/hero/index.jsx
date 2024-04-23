@@ -15,12 +15,12 @@ const Hero = () => {
             <div className={styles.hero__overlay}></div>
                 <video autoPlay muted playsInline className={styles.hero__video}>
                     <source src="/assets/marcio.mp4" type="video/mp4" />
-                    <Image src="/assets/marcio-bg.svg" className={styles.hero__video} width={1320} height={548} alt="CTO - Márcio Sena" />
+                    <Image src="/assets/marcio-bg.jpg" className={styles.hero__video} width={1320} height={548} alt="CTO - Márcio Sena" />
                 </video>
         </div>
 
         <div className={styles.info}>
-            <Image src={`/assets/${params.name}.svg`} width={120} height={120} alt="" className={styles.info__photo} />
+            <Image src={`/assets/${params.name}.jpg`} width={120} height={120} alt="" className={styles.info__photo} />
             <div className={styles.info__description}>
                 <h4 className={styles.info__title}>
                     Olá, sou o Márcio Sena

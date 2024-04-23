@@ -33,7 +33,7 @@ const SubMenu = ({isVisible}) => {
 
                 <Card 
                     url="/single/sylvestre"
-                    photo="../assets/sylvestre.svg" 
+                    photo="/assets/sylvestre.jpg" 
                     alt="CEO - Sylvestre Mergulhão"
                     role="CEO"
                     name="Sylvestre Mergulhão"
@@ -41,7 +41,7 @@ const SubMenu = ({isVisible}) => {
 
                 <Card 
                     url="/single/karine"
-                    photo="../assets/karine.svg" 
+                    photo="/assets/karine.jpg" 
                     alt="CPO - Karine Silveira"
                     role="CPO"
                     name="Karine Silveira"
@@ -49,7 +49,7 @@ const SubMenu = ({isVisible}) => {
 
                 <Card 
                     url="/single/rafael"
-                    photo="../assets/rafael.svg" 
+                    photo="/assets/rafael.jpg" 
                     alt="CINO - Rafael Miranda"
                     role="CINO"
                     name="Rafel Miranda"
@@ -57,7 +57,7 @@ const SubMenu = ({isVisible}) => {
                 
                 <Card 
                     url="/single/marcio"
-                    photo="../assets/marcio.svg" 
+                    photo="/assets/marcio.jpg" 
                     alt="CTO - Márcio Sena"
                     role="CTO"
                     name="Márcio Sena"
